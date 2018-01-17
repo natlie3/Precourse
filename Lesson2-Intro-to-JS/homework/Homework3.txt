@@ -1,0 +1,57 @@
+variable is a assigned element that is given value. The variable is like the name of a item.
+
+string are characters that are that are pieced together with single or double qupotation marks encasing them
+
+Functions(arguments, return) is a piece of code to perform a task based of of using arguments and parameters to set the environment for code
+arguments are value(variables) that the function uses to help run it. Whatever is in the () is what the function uses
+When the code reaches a return statement the function will stop running, and return the value
+
+if statements- conditional statemnts that will return a value if its true, or return a differnt value if its false. There can be numerous conditons for to determine which to retrun. If statement is the first given and is the first condtion considered
+
+Boolen values (true, false) are acutal vaues or statemnts that can be given a true or false value. True is determines if two values equal eachother, and false is determined if they don't equal eachother.
+
+Objects are variables that contains named values called properties or methods. Everything in JS is an Objects
+A collection of data(characteristics) about one thing (user). You can name the index of the object called keys or properties
+ex: let user {
+    username: "ndavis299",
+    password: "badboy21",
+    favNum: 21,
+    lovesJavascript: True,
+}
+
+console.log(user.username)
+
+or
+
+console.log(user["username"]
+
+
+Properties are how we name objects usig this syntax name:value
+for examples firstName: "John". Basically the name:value pairs
+
+Methods are actions that can be performed on objects. They are stored on properties as function definiation. Meaning, the property value will have a function, instead of a value.
+A method is always a function consol.log(" ")  .log() is a method
+
+for in loop loops through the properties of an object. Written
+ex: for (variable in object){
+
+}
+
+for example, it will loop through all the properties of an object and return until all the variables are printed
+
+
+Dot notation- a way to write to seperate the object.property and
+A way to access property. Used for alphanumeric characters (can't use a single number).
+Only used when we know the exact name of the property
+ex. object.property
+
+Bracket notation- object['property'], same defination as before but used for only strings. Write keyword as a string!
+Used when you may or maynot know the location of the property. Also, use with variables
+
+ex.function(user,key){
+    user[key]
+}  
+*unknown user and unknown key*
+
+ex. document['createElement']('pre')
+
